@@ -113,9 +113,10 @@ elif choice=="Build Project":
         st.markdown("<h4 style='text-align: left; color: blue;'>Model 1. Cosine Similarity</h4>", unsafe_allow_html=True)
         # Giải pháp 1: Cosine_similarity
         #doc model count:
-        pkl_tfidf = 'count_tfidf_matrix.pkl'
-        with open(pkl_tfidf, 'rb') as file:
-          tfidf_matrix = pickle.load(file)
+        # pkl_tfidf = 'count_tfidf_matrix.pkl'
+        # with open(pkl_tfidf, 'rb') as file:
+        #   tfidf_matrix = pickle.load(file)
+        tfidf_matrix = pickle.load(open('count_tfidf_matrix.pkl','rb'))
         cosine_similarities = cosine_similarity(tfidf_matrix,tfidf_matrix)
         # với mỗi sản phẩm, lấy 10 sản phẩm tương quan nhất
         results = {}
