@@ -1,1 +1,2 @@
 *.pkl filter=lfs diff=lfs merge=lfs -text
+svd_algorithm.pkl filter=lfs diff=lfs merge=lfs -text
