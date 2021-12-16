@@ -1,7 +1,6 @@
 streamlit
-pickle
 pandas
 matplotlib
 scikit-learn
 gensim
-warnings
+pickle
