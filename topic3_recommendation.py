@@ -7,12 +7,12 @@ import matplotlib.pyplot as plt
 import pickle as pickle 
 import pickle
 import streamlit as st
-from surprise import Reader
-from surprise import SVD
-from surprise import Dataset
-from surprise.model_selection.validation import cross_validate
-import warnings
-warnings.filterwarnings("ignore")
+# from surprise import Reader
+# from surprise import SVD
+# from surprise import Dataset
+# from surprise.model_selection.validation import cross_validate
+# import warnings
+# warnings.filterwarnings("ignore")
 
 # Source Code
 pd.options.display.float_format = '{:.2f}'.format
