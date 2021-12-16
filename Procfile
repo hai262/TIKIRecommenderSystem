@@ -1,0 +1,1 @@
+web: sh setup.sh && streamlit run topic3_recommendation.py
