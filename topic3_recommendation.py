@@ -1,5 +1,6 @@
 #cài đặt các thư viện cần thiết:
 import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics.pairwise import  cosine_similarity
 from gensim import similarities
