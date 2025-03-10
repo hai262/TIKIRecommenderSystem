@@ -24,7 +24,7 @@ pd.options.display.float_format = '{:.2f}'.format
 # #--------------
 # GUI
 # https://docs.streamlit.io/library/api-reference/layout
-st.markdown("<h1 style='text-align: center; color: red;'>Topic3: Recommender System</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: red;'>Recommender System</h1>", unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; color: darkblue;'>TIKI E-Commerce</h2>", unsafe_allow_html=True)
 # GUI
 menu = ["Business Objective","Build Project","Conclusion"]
