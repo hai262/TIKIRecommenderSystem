@@ -15,6 +15,8 @@ import streamlit as st
 # import warnings
 # warnings.filterwarnings("ignore")
 
+# Page configuration
+st.set_page_config(page_title="Recommender System", layout="wide", page_icon=":mag:")
 # Source Code
 pd.options.display.float_format = '{:.2f}'.format
 #1. Products
